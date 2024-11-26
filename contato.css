@@ -1,0 +1,129 @@
+body{
+    
+    margin:0%;
+background-color:rgba(191, 117, 241, 0.644) ;}
+
+    header{
+        background-color: rgba(168, 124, 189, 0.589);
+            height: 15vh;
+            font-family: Snell Roundhand, cursive;
+        background-image: url(img/uvapapel.jpg);
+        color: rgb(255, 255, 255);
+       text-align: center;
+       
+    }
+
+    h1{
+        margin: 0;
+    }
+
+    nav{
+        height: 5vh; 
+     background-color: rgba(90, 8, 129, 0.584);
+     display: flex;
+     justify-content: center;
+     align-items:center;
+     padding: 2px 20px;}
+
+     nav a{
+        margin: 5px;
+        background-color: rgb(78, 190, 164);
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        padding: 2px 10px;
+        font-family: Snell Roundhand, cursive;
+    
+           
+    }
+    nav a:hover{
+        background-color: #10f31b;
+        color: rgb(0, 0, 0);
+        
+    
+    
+    }
+
+    main{
+       min-height: 75vh;
+        background-color: rgba(205, 171, 228, 0.534);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        }
+        .primeira{
+            padding: 25px;
+            width: 300px;
+            margin: auto;
+            font-family: Snell Roundhand, cursive;
+            border: rgba(128, 0, 128, 0.548) inset;
+            display: flex;
+            flex-direction: column;
+            border-radius: 15px;
+            align-items: center;
+        }
+
+        .primeira label{
+            margin-top: 10PX;
+            margin-bottom: 5px;
+            width: 95%;
+        
+        }
+
+        .primeira #enviar{
+            cursor: pointer;
+            margin-top: 30px;
+            padding: 20px;
+            height: auto;
+            border-radius: 35px;
+        }
+
+        input{
+            width: 90%;
+            height: 30px;
+            border: none;
+            border-radius: 20px;
+        }
+
+        footer{
+            height: 5vh;
+            background-color: rgba(90, 8, 129, 0.584);
+            display: flex;
+            justify-content: center;
+            
+
+        }
+
+        footer p{
+
+            font-family: Snell Roundhand, cursive;
+            color: white;
+        }
+
+        @media screen and (max-width: 430px) {
+
+           header{
+			   
+			   height:15vh;
+			   
+		   }
+           
+           header h2{
+
+        font-size: small;
+           }
+           
+            main{
+                min-height: 75vh;
+                background-color:  rgba(192, 117, 241, 0.484);
+                display:flex;
+               
+                flex-direction: column;
+               
+                        }
+                        nav{
+
+                            min-height: 5vh;
+                        }
+          
+                    }

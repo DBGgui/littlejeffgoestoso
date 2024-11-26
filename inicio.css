@@ -1,0 +1,221 @@
+body{
+
+    margin: 0%;
+  background-color:  rgba(179, 77, 226, 0.584);;
+   
+}
+
+header{
+background-color: rgba(168, 124, 189, 0.589);
+    height: 15vh;
+    font-family: Snell Roundhand, cursive;
+background-image: url(img/uvapapel.jpg);
+display: flex;
+justify-content: center;
+color: aliceblue;
+
+
+
+}
+
+
+
+
+nav{
+   height: 5vh; 
+background-color: rgba(123, 41, 161, 0.425);
+display: flex;
+justify-content: center;
+align-items:center;
+padding: 2px 20px;
+
+}
+
+nav a{
+    margin: 5px;
+    background-color: rgb(78, 190, 164);
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 2px 10px;
+    font-family: Snell Roundhand, cursive;
+
+       
+}
+nav a:hover{
+    background-color: #10f31b;
+    color: rgb(0, 0, 0);
+    
+
+
+}
+main{
+height: 75vh;
+background-color: rgba(192, 117, 241, 0.484);
+
+}
+
+
+ 
+.oi{
+background-color: rgba(191, 117, 241, 0.041);
+width: 50%;
+font-family: snell roundhand, cursive;
+margin:0% auto ;
+font-size: xx-large;
+
+}
+
+
+footer{
+height: 5vh;
+background-color: rgba(90, 8, 129, 0.584);
+display: flex;
+justify-content: center;
+}
+
+
+
+figcaption{
+    background-color: rgba(183, 131, 247, 0.723);
+    padding: 2px 8px;
+    width: 285px;
+    
+
+}
+figure {
+    display: flex;
+    justify-content: center;
+    padding:50px ;
+    margin: 0%;
+
+    
+
+    
+}
+figure img{
+
+    width: 350px;
+    border-radius: 10%;
+    border: inset purple;
+     border-radius: 10%;
+    border: inset purple;
+   
+}
+
+
+
+
+
+
+
+
+        @media (max-width:480px){main{
+
+            background-color: rgb(255, 255, 255);}
+        }
+
+
+
+figcaption a{
+    text-decoration: none;
+    color: black;
+}
+
+figcaption a:hover{
+    background-color: #5e29c9;
+    color: aliceblue;
+}
+footer p{
+    margin: 5px;
+   
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 2px 20px;
+    font-family: Snell Roundhand, cursive;
+    display: flex;
+justify-content: center;
+align-items: center;
+
+
+}
+main a:hover{
+    background-color: #10f31b;
+    color: rgb(0, 0, 0);
+    
+
+}
+
+@media screen and (max-width: 1115px ) {
+    
+   figure img{
+
+    width: 210px;
+   }
+   
+   
+   
+   
+    .oi{ background-color: rgba(191, 117, 241, 0.041);
+width: 40%;
+font-family: snell roundhand, cursive;
+margin : 2% auto ;
+font-size: x-large;
+ }
+
+}
+@media screen and (max-width: 1600px) {
+figure img{
+margin: 0% auto;
+width: 300px;
+
+}
+
+     
+    .oi{ background-color: rgba(191, 117, 241, 0.041);
+        width: 50%;
+         font-size: large;
+         margin: 0% auto;
+         
+
+}
+}
+@media screen and (max-width: 1348px) {
+
+    figure img{
+        margin: 0% auto;
+        width: 300px;
+        
+        }
+        
+             
+            .oi{ background-color: rgba(191, 117, 241, 0.041);
+                width: 50%;
+                 font-size: x-large;
+                 margin: 0% auto;
+                 
+        
+        }
+    
+}
+@media screen and (max-width: 429px) {
+    figure img{
+    margin: 0% auto;
+    width: 250px;
+    
+    }
+    main{
+        height: 75vh;
+        background-color: rgba(192, 117, 241, 0.484);}
+        
+         
+        .oi{ background-color: rgba(191, 117, 241, 0.041);
+            width: 60%;
+             font-size: 4vw;
+             margin: 0% auto;
+             
+
+             
+                
+    }
+    }
+
